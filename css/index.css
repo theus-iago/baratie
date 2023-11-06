@@ -40,14 +40,14 @@ a {
     text-decoration:none;
     color:#ffffff;
     margin:5px;
-    padding:2px;
+    padding:8px;
     transition:.4s;
 }
 a:hover {
-    text-decoration: underline;
-    background-color:#2F70AB;
-    border-radius:2.6px;
-    color:white;
+        text-decoration: underline;
+        background-color:#0059ff;
+        border-radius:4px;
+        color:white;
 }
 main {
     background-image:url("../images/baratie_imagemqualidade.png");

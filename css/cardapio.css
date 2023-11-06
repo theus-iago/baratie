@@ -12,6 +12,7 @@
     box-sizing:border-box;
 }
 body {
+    background-color:#0776FB;
     color:white;
     height:100vh;
     display:flex;
@@ -27,13 +28,45 @@ header {
 header h2 {
     font-size:1.6rem;
 }
+nav {
+    background-color:#0776FB;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:.8rem;
+    text-align:start;
+    margin-bottom:10px;
+    padding:2.5px;
+    padding-bottom:3px;
+}
+a { 
+    text-decoration:none;
+    color:#ffffff;
+    margin:5px;
+    padding:8px;
+    transition:.4s;
+}
+a:hover {
+    text-decoration: underline;
+    background-color:#008cff;
+    border-radius:4px;
+    color:white;
+}
 main {
     display:flex;
     justify-content:end;
     height:100%;
 }
-main img {
-    height:100%;
+.cardapio {
+    width:100%;
+    display:flex;
+    justify-content:start;
+    flex-direction:column; 
+}
+main .sanji {
+    border:1px solid black;
+    border-radius:14px;
+    margin:15px;
+    margin-top:2px;
+    height:90%;
     width:400px;
 }
 main .container {
@@ -41,11 +74,11 @@ main .container {
     border:2px solid black;
     border-radius:8px;
     color:black;
+    margin:5px;
     padding:3px;
     height:200px;
-    width:300px;
+    width:300px; 
     display:flex;
-   
 }
 .texto {
     height:100%;
@@ -62,4 +95,10 @@ main .container {
 main .container img {
     height:100%;
     width:140px;
+}
+footer {
+    height:16px;
+    text-align:center;
+    padding:6px;
+    width:100%;
 }
