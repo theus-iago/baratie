@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h2>Baratiê</h2>
+        <br>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="cadastro.html">Cadastro</a>
+          <a href="cardapio.html">Cardápio</a>
+        </nav>
+      </header>
+      <main>
+        <form action="" autocomplete="off">
+            <h2>Cadastro</h2>
+            <br>
+            <p>
+              <label for="nome">nome</label>
+              <br>
+              <input type="text" name="nome" id="nome" required>
+            </p>
+            <p>
+              <label for="idade">idade</label>
+              <br>
+              <input type="number" name="idade" id="idade" required>
+            </p>
+            <p>
+              <label for="email">email</label>
+              <br>
+              <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+              <label for="senha">senha</label>
+              <br>
+              <input type="password" name="senha" id="senha" required>
+            </p>
+            <p>
+              <label for="csenha">confirme a sua senha</label>
+               <br>
+               <input type="password" name="csenha" id="csenha" required>
+            </p>
+            <p class="link">
+                <a href="index.html">Voltar ao Login</a>
+            </p>
+            <p class="botoes">
+              <input type="reset" id="btn-reset">
+              <input type="submit" id="btn">
+            </p>
+        </form>
+      </main>
+      <footer>
+        <p>
+          Este site foi desenvolvido para o restaurante Baratiê 
+         </p>
+      </footer>
+            
+</body>
+</html>
