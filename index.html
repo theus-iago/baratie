@@ -3,46 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante</title>
+    <title>Página Inicial</title>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <header>
-    <h2>Baratiê</h2>
+    <h1>Baratiê</h1>
     <br>
-    <nav>
-      <a href="#">Home</a>
-      <a href="cadastro.html">Cadastro</a>
-      <a href="cardapio.html">Cardápio</a>
-    </nav>
-  </header>
-  <main>
-  <form action="">
-    <h2>Login</h2>
-    <br>
-    <p>
-     <label for="email">email</label>
-     <br>
-     <input type="email" name="email" id="email">
-    </p>
-    <p>
-      <label for="senha">senha</label>
-      <br>
-      <input type="password" name="senha" id="senha">
-    </p>
-    <p class="link">
-      <a href="cadastro.html">Não é cadastrado? Cadastre-se!</a>
-    </p>
-    <p class="botoes">
-      <input type="reset" id="btn-reset">
-      <input type="submit" id="btn">
-    </p>
-  </form>
-  </main>
-  <footer>
-    <p>
-      Este site foi desenvolvido para o restaurante Baratiê 
-     </p>
-  </footer>
+    <div class="loader-area">
+        <div class="loader"></div>
+    </div>
+    <script>
+        function next() {
+            setTimeout(() => {
+             location.href = "main.html";
+            },3500);
+        }
+        next();
+    </script>
 </body>
 </html>

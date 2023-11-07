@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+  <header> <!--Cabeçalho-->
+    <h2>Baratiê</h2> <!--Título-->
+    <br><!--Quebra de Linha-->
+    <nav><!--Barra de Navegação-->
+      <a href="main">Home</a><!--Link-->
+      <a href="cadastro.html">Cadastro</a>
+      <a href="cardapio.html">Cardápio</a>
+    </nav>
+  </header>
+
+  <main>
+  <form action="cardapio.html"><!--Formulario de Login-->
+    <h2>Login</h2><!--Título-->
+    <br><!--Quebra de Linha-->
+    <p><!--Parágrafo-->
+     <label for="email">email</label><!--Referencia o input-->
+     <br>
+     <input type="email" name="email" id="email" required>
+    </p>
+    <p>
+      <label for="senha">senha</label>
+      <br>
+      <input type="password" name="senha" id="senha" required>
+    </p>
+    <p class="link">
+      <a href="cadastro.html">Não é cadastrado? Cadastre-se!</a>
+    </p>
+    <p class="botoes"><!--Parágrafos de Botões-->
+      <input type="reset" id="btn-reset">
+      <input type="submit" id="btn">
+    </p>
+  </form>
+  </main>
+
+  <footer> <!--Rodapé-->
+    <p>
+      Este site foi desenvolvido para o restaurante Baratiê 
+     </p>
+  </footer>
+</body>
+</html>
